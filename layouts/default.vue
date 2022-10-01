@@ -3,12 +3,7 @@
 		<Head>
 			<Title>Nuxt 3 - {{$route.name.charAt(0).toUpperCase()+ $route.name.slice(1)}}</Title>
 		</Head>
-		<header>
-			<Nuxt-link to="/">Home</Nuxt-link>
-			<Nuxt-link to="/about">About</Nuxt-link>
-			<Nuxt-link to="/products">Products</Nuxt-link>
-			<Nuxt-link to="/contact">Contact</Nuxt-link>
-		</header>
+		<Navbar />
 		<div class="container">
 			<slot></slot>
 		</div>
