@@ -1,4 +1,4 @@
-# vue-router 4 by devbipu
+# nuxt.js by devbipu
 
 This is the practice project for Vue 3 and Vue Router by devbipu
 
