@@ -1,42 +1,24 @@
-# Nuxt 3 Minimal Starter
+# vue-router 4 by devbipu
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+This is the practice project for Vue 3 and Vue Router by devbipu
 
-## Setup
+It's using vite as compliller 
+See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-Make sure to install the dependencies:
+## Project Setup
 
-```bash
-# yarn
-yarn install
-
-# npm
+```sh
 npm install
-
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
-## Development Server
+### Compile and Hot-Reload for Development
 
-Start the development server on http://localhost:3000
-
-```bash
+```sh
 npm run dev
 ```
 
-## Production
+### Compile and Minify for Production
 
-Build the application for production:
-
-```bash
+```sh
 npm run build
 ```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/presets) for more information.
